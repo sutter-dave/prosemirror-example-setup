@@ -1,8 +1,8 @@
 import {wrapItem, blockTypeItem, Dropdown, DropdownSubmenu, joinUpItem, liftItem,
-       selectParentNodeItem, undoItem, redoItem, icons, MenuItem} from "/prosemirror/dist/prosemirror-menu.es.js"
-import {NodeSelection} from "/prosemirror/dist/prosemirror-state.es.js"
-import {toggleMark} from "/prosemirror/dist/prosemirror-commands.es.js"
-import {wrapInList} from "/prosemirror/dist/prosemirror-schema-list.es.js"
+       selectParentNodeItem, undoItem, redoItem, icons, MenuItem} from "/prosemirror/devimports/prosemirror-menu.es.js"
+import {NodeSelection} from "/prosemirror/devimports/prosemirror-state.es.js"
+import {toggleMark} from "/prosemirror/devimports/prosemirror-commands.es.js"
+import {wrapInList} from "/prosemirror/devimports/prosemirror-schema-list.es.js"
 import {TextField, openPrompt} from "./prompt.js"
 
 // Helpers to create specific types of items
