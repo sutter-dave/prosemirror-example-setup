@@ -1,8 +1,8 @@
 import {wrapIn, setBlockType, chainCommands, toggleMark, exitCode,
-        joinUp, joinDown, lift, selectParentNode} from "prosemirror-commands"
-import {wrapInList, splitListItem, liftListItem, sinkListItem} from "prosemirror-schema-list"
-import {undo, redo} from "prosemirror-history"
-import {undoInputRule} from "prosemirror-inputrules"
+        joinUp, joinDown, lift, selectParentNode} from "/prosemirror/dist/prosemirror-commands.es.js"
+import {wrapInList, splitListItem, liftListItem, sinkListItem} from "/prosemirror/dist/prosemirror-schema-list.es.js"
+import {undo, redo} from "/prosemirror/dist/prosemirror-history.es.js"
+import {undoInputRule} from "/prosemirror/dist/prosemirror-inputrules.es.js"
 
 const mac = typeof navigator != "undefined" ? /Mac/.test(navigator.platform) : false
 

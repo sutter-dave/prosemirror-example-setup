@@ -1,5 +1,5 @@
 import {inputRules, wrappingInputRule, textblockTypeInputRule,
-        smartQuotes, emDash, ellipsis} from "prosemirror-inputrules"
+        smartQuotes, emDash, ellipsis} from "/prosemirror/dist/prosemirror-inputrules.es.js"
 
 // : (NodeType) → InputRule
 // Given a blockquote node type, returns an input rule that turns `"> "`

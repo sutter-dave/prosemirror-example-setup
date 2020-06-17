@@ -1,14 +1,14 @@
-import {keymap} from "prosemirror-keymap"
-import {history} from "prosemirror-history"
-import {baseKeymap} from "prosemirror-commands"
-import {Plugin} from "prosemirror-state"
-import {dropCursor} from "prosemirror-dropcursor"
-import {gapCursor} from "prosemirror-gapcursor"
-import {menuBar} from "prosemirror-menu"
+import {keymap} from "/prosemirror/dist/prosemirror-keymap.es.js"
+import {history} from "/prosemirror/dist/prosemirror-history.es.js"
+import {baseKeymap} from "/prosemirror/dist/prosemirror-commands.es.js"
+import {Plugin} from "/prosemirror/dist/prosemirror-state.es.js"
+import {dropCursor} from "/prosemirror/dist/prosemirror-dropcursor.es.js"
+import {gapCursor} from "/prosemirror/dist/prosemirror-gapcursor.es.js"
+import {menuBar} from "/prosemirror/dist/prosemirror-menu.es.js"
 
-import {buildMenuItems} from "./menu"
-import {buildKeymap} from "./keymap"
-import {buildInputRules} from "./inputrules"
+import {buildMenuItems} from "./menu.js"
+import {buildKeymap} from "./keymap.js"
+import {buildInputRules} from "./inputrules.js"
 
 export {buildMenuItems, buildKeymap, buildInputRules}
 
